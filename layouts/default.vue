@@ -1,9 +1,8 @@
 <template>
-  <main class="py-20 px-10 text-center">
-    <slot />
-    <Footer />
-    <div class="mt-5 mx-auto text-center opacity-25 text-sm">
-      [Default Layout]
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-3xl mx-auto">
+      <slot />
+      <Footer />
     </div>
-  </main>
+  </div>
 </template>
