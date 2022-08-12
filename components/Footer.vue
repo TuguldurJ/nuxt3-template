@@ -8,13 +8,9 @@ import CarbonLogoGithub from '~icons/carbon/logo-github'
     <NuxtLink :to="'/'">
       <HeroiconsOutlineHome
         class="w-6 h-6 text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-200"
-        aria-hidden="true"
-      />
+        aria-hidden="true" />
     </NuxtLink>
-    <a
-      href="https://github.com/initred/nuxt3-tailwindcss3-starter-kit"
-      target="_blank"
-    >
+    <a href="https://github.com/initred/nuxt3-tailwindcss3-starter-kit" target="_blank">
       <CarbonLogoGithub class="w-6 h-6 text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-200" />
     </a>
     <DarkToggle />

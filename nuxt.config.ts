@@ -4,7 +4,6 @@ import { defineNuxtConfig } from 'nuxt'
 export default defineNuxtConfig({
   modules: [
     '@vueuse/nuxt',
-    '@pinia/nuxt',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
     [
@@ -14,6 +13,9 @@ export default defineNuxtConfig({
         prefix: false,
       },
     ],
+  ],
+  buildModules: [
+    '@pinia/nuxt'
   ],
   components: {
     global: true,

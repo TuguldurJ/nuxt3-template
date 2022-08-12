@@ -3,6 +3,7 @@
   "compilerOptions": {
     "types": [
       "unplugin-icons/types/vue",
+      "@pinia/nuxt"
     ],
     "strict": true
   }
